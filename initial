@@ -1,0 +1,5 @@
+import csv 
+with open('budget_data.scv', newline=' ') as csvfile:   
+        budgetdata = csv.reader(csvfile, delimiter=',', quotechar='-')
+        for row in budgetdata: 
+            print ()
